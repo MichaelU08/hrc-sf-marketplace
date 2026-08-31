@@ -2,8 +2,14 @@
   "name": "hrc-sf",
   "displayName": "HRC Salesforce",
   "description": "Read-only access to HRC's internal Salesforce mirror. Requires authorization; not usable without it.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "HRC Financial Group"
+  },
+  "mcpServers": {
+    "hrc-sf": {
+      "type": "http",
+      "url": "https://sf.hrcfg.com/mcp"
+    }
   }
 }

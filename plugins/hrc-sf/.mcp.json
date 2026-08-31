@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "hrc-sf": {
+      "type": "http",
+      "url": "https://sf.hrcfg.com/mcp"
+    }
+  }
+}
